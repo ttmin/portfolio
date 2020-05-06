@@ -59,6 +59,11 @@ body {
     background: url(images/main_img.jpg) no-repeat;
     background-size: cover;
     background-color: #957b6a;
+    
+}
+
+body#fadein {
+    display: none;
 }
 
 /* -------------------------
@@ -78,6 +83,15 @@ header {
     background-color: white;
 }
 
+header h1 {
+    float: left;
+    font-size: 50px;
+    padding-top: 10px;
+    padding-left: 30px;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+}
+
 header nav {
     float: right;
     margin-top: 30px; 
@@ -91,15 +105,15 @@ header nav ul li {
 header nav ul li a {
     font-size: 30px;
     font-weight: bold;
-    color: black;
+    color: #000000;
     text-decoration: none;
-     text-shadow: 0 0 1px black;
+    text-shadow: 0 0 1px #000000;
     font-family: 'Jost', sans-serif;
 }
 
 header nav ul li:hover a {
-    color: #fcfcfc;
-    border-bottom: 4px solid #fcfcfc; 
+    color: #5b5b5b;
+    border-bottom: 4px solid #000000; 
 }
 
 /* -------------------------
@@ -199,15 +213,16 @@ div.clear {
     ここからコンタクト
 --------------------------*/
 div#contact {
-    background-color: green;
     margin-top: 230px;
     margin-right: 330px;
     margin-left: 330px;
+    font-size: 20px;
 }
+
+div#contact h2,
+div#contact form {
+    text-align: center;
+    padding-top: 20px;
 }
-
-
-
-
 
 
