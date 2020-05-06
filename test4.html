@@ -17,6 +17,9 @@
 		
 	<!--ここからヘッダー--------------->
 		<header>
+
+			<h1>Contact</h1>
+
 			<nav>
 				<ul>
 					<li><a href="#">About</a></li>
@@ -29,11 +32,20 @@
 
 		<!--ここからコンタクト--------------->
 		<div id="contact">
-			<h2>お問い合わせ</h2>
-			<p>お名前</p>
-			<input type="text" name="">
-			<p>電話番号</p>
-			<p>メールアドレス</p>
+			<h2>Contact</h2>
+			<form>
+				<label for="name">お名前：</label><br>
+				<input id="name" type="text" name="お名前"><br>
+
+				<label for="mail">メールアドレス：</label><br>
+				<input id="mail"type="text" name="メールアドレス"><br>
+
+				<label for="para">お問い合わせ内容</label><br>
+				<textarea id="para" name="本文" placeholder="自由にお書きください"></textarea><br>
+
+				<input type="submit" value="送信する">
+				<input type="reset" value="クリア">
+			</form>
 		</div>
 		<!--ここまでコンタクト--------------->
 
